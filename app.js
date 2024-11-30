@@ -1267,7 +1267,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "test.html"));
 });
 
-const PORT = process.env.PORT || 80;
+const PORT = 8080;
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
