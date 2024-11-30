@@ -11,27 +11,18 @@ app.get("/donate", (req, res) => {
    <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Donate Page</title>
-
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Donate to Our Cause">
-  <meta name="twitter:description" content="Support our mission by making a donation. Every contribution counts!">
-  <meta name="twitter:image" content="https://nami-ai.vercel.app/logo.jpg">
-  <meta name="twitter:url" content="https://testing-iframes.up.railway.app/donate">
-    
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Donate to Our Cause">
-  <meta property="og:description" content="Support our mission by making a donation. Every contribution counts!">
-  <meta property="og:image" content="https://nami-ai.vercel.app/logo.jpg">
-  <meta property="og:url" content="https://testing-iframes.up.railway.app/donate">
-  <meta property="og:type" content="website">
-
-  <!-- Additional Meta -->
-  <link rel="icon" href="/favicon.ico">
+    <meta charset="UTF-8" />
+    <title>Example</title>
+    <meta property="og:title" content="Example Title" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://example.com/image.png" />
+    <meta property="og:image" content="https://example.com/image.png" />
+    <meta property="fc:frame:image" content="https://example.com/image.png" />
+    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
 </head>
+
 <body>
   <h1>Donate to Our Cause</h1>
   <p>Thank you for considering a donation. Your support helps us achieve our goals.</p>
