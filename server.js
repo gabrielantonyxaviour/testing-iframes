@@ -19,13 +19,13 @@ app.get("/donate", (req, res) => {
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Donate to Our Cause">
   <meta name="twitter:description" content="Support our mission by making a donation. Every contribution counts!">
-  <meta name="twitter:image" content="https://testing-iframes.up.railway.app/images/donate-banner.jpg">
+  <meta name="twitter:image" content="https://nami-ai.vercel.app/logo.jpg">
   <meta name="twitter:url" content="https://testing-iframes.up.railway.app/donate">
-
+    
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Donate to Our Cause">
   <meta property="og:description" content="Support our mission by making a donation. Every contribution counts!">
-  <meta property="og:image" content="https://testing-iframes.up.railway.app/images/donate-banner.jpg">
+  <meta property="og:image" content="https://nami-ai.vercel.app/logo.jpg">
   <meta property="og:url" content="https://testing-iframes.up.railway.app/donate">
   <meta property="og:type" content="website">
 
@@ -35,7 +35,7 @@ app.get("/donate", (req, res) => {
 <body>
   <h1>Donate to Our Cause</h1>
   <p>Thank you for considering a donation. Your support helps us achieve our goals.</p>
-  <img src="https://testing-iframes.up.railway.app/images/donate-banner.jpg" alt="Donate Banner" />
+  <img src="https://nami-ai.vercel.app/logo.jpg" alt="Donate Banner" />
 </body>
 </html>
 
