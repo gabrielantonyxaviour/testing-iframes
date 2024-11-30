@@ -10,6 +10,10 @@ app.use(
   })
 );
 
+app.get("/health", (req, res) => {
+  res.send("Server is running");
+});
+
 app.get("/swap", (req, res) => {
   //return res.json({iframe: {html: "", js: ""}});
   res.json({
