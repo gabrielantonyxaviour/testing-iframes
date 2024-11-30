@@ -8,42 +8,37 @@ app.use(express.static("public"));
 // Main endpoint that serves the donation page
 app.get("/donate", (req, res) => {
   res.send(`
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <title>Donate</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <style>
-        body {
-          font-family: Arial, sans-serif;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          height: 100vh;
-          margin: 0;
-          background-color: #f5f5f5;
-        }
-        .donate-button {
-          padding: 12px 24px;
-          font-size: 18px;
-          background-color: #2ecc71;
-          color: white;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-          transition: background-color 0.3s;
-        }
-        .donate-button:hover {
-          background-color: #27ae60;
-        }
-      </style>
-    </head>
-    <body>
-      <button class="donate-button" onclick="window.open('https://your-payment-processor.com')">
-        Donate Now
-      </button>
-    </body>
-    </html>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate Page</title>
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Donate to Our Cause">
+  <meta name="twitter:description" content="Support our mission by making a donation. Every contribution counts!">
+  <meta name="twitter:image" content="https://testing-iframes.up.railway.app/images/donate-banner.jpg">
+  <meta name="twitter:url" content="https://testing-iframes.up.railway.app/donate">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Donate to Our Cause">
+  <meta property="og:description" content="Support our mission by making a donation. Every contribution counts!">
+  <meta property="og:image" content="https://testing-iframes.up.railway.app/images/donate-banner.jpg">
+  <meta property="og:url" content="https://testing-iframes.up.railway.app/donate">
+  <meta property="og:type" content="website">
+
+  <!-- Additional Meta -->
+  <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+  <h1>Donate to Our Cause</h1>
+  <p>Thank you for considering a donation. Your support helps us achieve our goals.</p>
+  <img src="https://testing-iframes.up.railway.app/images/donate-banner.jpg" alt="Donate Banner" />
+</body>
+</html>
+
   `);
 });
 
